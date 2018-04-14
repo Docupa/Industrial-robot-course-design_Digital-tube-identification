@@ -83,7 +83,7 @@ void deal(Mat src, char data[], bool &flag)
 						a = ssum;
 						val = num;
 						rrr = rect;
-						printf("num=%d a=%d x=%d\n", num, a, rect.tl().x);
+						//printf("num=%d a=%d x=%d\n", num, a, rect.tl().x);
 					}
 				}
 			}
