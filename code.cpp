@@ -64,7 +64,7 @@ void deal(Mat src, char data[], bool &flag)
 					resize(model, model, K.size());//重新调整像素
 					imshow("model", model);
 					Mat out;
-					absdiff(K, model, out);//帧差   互减
+					absdiff(K, model, out);//像素差   互减
 					ssum = 0;
 					//求差值后矩阵元素的和
 					for (y = 0; y < out.rows; y++)
